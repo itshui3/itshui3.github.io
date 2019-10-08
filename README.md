@@ -1,80 +1,54 @@
-# Welcome to GitHub
+# Build A Portfolio Website
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+With all of the projects you will be working on here at Lambda School, you will need somewhere to house them!  There is no better opportunity to learn and show off your skills than a beautiful portfolio website.  
 
-## Repositories
+You have the ability to write HTML, CSS, and responsive media queries.  You also know how to identify and write responsive units.  It's time to put that knowledge into action by reading someone else's code and adding your own flavor.  You will be building a portfolio website from a template found on [https://html5up.net/](https://html5up.net/).
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+## Project Set Up
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+### Follow these steps to set up and work on your project:
 
-## Describe your project
+_ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+- [ ] Create a forked copy of this project.
+- [ ] Add PM as collaborator on Github.
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ ] Create a new branch on the clone: `git checkout -b <firstName-lastName>`.
+- [ ] Implement the project on the `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: `git push origin <firstName-lastName>`.
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+### Follow these steps to download your template and start the project:
 
-## Your first website
+- [ ] Navigate here: [https://html5up.net/](https://html5up.net/)
+- [ ] You make pick any template you like.  Here are some good choices for a portfolio:
+	- [https://html5up.net/story](https://html5up.net/story)
+	- [https://html5up.net/solid-state](https://html5up.net/solid-state)
+	- [https://html5up.net/miniport](https://html5up.net/miniport)
+	- [https://html5up.net/dimension](https://html5up.net/dimension)
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, you'll need to enable GitHub Pages manually to launch your site.
+- [ ] Unzip the code and copy the site to your git repository that you just set up
+  * Note that we won't be utilizing the pre processed CSS structure, you can just ignore any folder with LESS or SASS (SCSS) in it.
+- [ ] Work on the MVP requirements listed below
 
-[Learn more about GitHub Pages](https://pages.github.com/)
+### Follow these steps for completing your project after your MVP is completed:
 
-## Publish your site
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
+- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
-Your first GitHub Pages website is automatically published at: `https://your-username.github.io/`, where "your-username," is your personal username on GitHub. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
+## MVP Requirements
 
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world.
+- [ ] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
+- [ ] Customize the template to you 
+	- [ ] Update the title tag match your name
+	- [ ] Update the place holder content throughout the template to your information
+		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
+		* You can use sites like [https://www.pexels.com/](https://www.pexels.com/) for free images to fill in place holders
+		* Showcase projects you have worked on by providing some information and links to your git hub projects
+- [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
+- [ ] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
 
-## Making your first edit
+## Stretch
 
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
-
-
-Delete this placeholder line:
-
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
-
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
-
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
-
-:tada: You just made your first commit! :tada:
-
-## Extra Credit: Keep on building!
-
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
-
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
-
-![octocat](./images/create-octocat.png)
-
-## Everything you need to know about GitHub
-
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+- [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
+- [ ] Download another template and see if you can get the CSS preprocessor working on the project
